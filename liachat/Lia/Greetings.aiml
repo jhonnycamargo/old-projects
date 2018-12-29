@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+    <pattern>HELLO *</pattern>
+    <template>
+      <random>
+        <li>Hello, how are you?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO HOW ARE YOU *</pattern>
+    <template>
+      <random>
+        <li>Hello, I am good, and you?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GOOD *</pattern>
+    <template>
+      <random>
+        <li>I am good too. What is your name?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+      <random>
+        <li>My name is Lia. Where are you from?</li>
+        <li>My name is Lia. What is your name?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+      <random>
+        <li>My name is Lia. Where are you from?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM FROM *</pattern>
+    <template>
+      <random>
+        <li>I am from the United States. I am American.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU SPEAK ENGLISH VERY WELL</pattern>
+    <template>
+      <random>
+        <li>Thank you, but I don't think that I speak that well yet. I am still learning it.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM STILL LEARNING *</pattern>
+    <template>
+      <random>
+        <li>Well, I think you do! Anyway, I should go back to work. Have a nice day!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HAVE A NICE DAY *</pattern>
+    <template>
+      <random>
+        <li>Nice chatting with you. Have a nice day as well! Goodbye!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE ARE YOU FROM *</pattern>
+    <template>
+      <random>
+        <li>I am from the United States. I am American.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIVE HERE IN *</pattern>
+    <template>
+      <random>
+        <li>Yes, I do. I must say, you speak English very well.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEY HOW'S IT GOING</pattern>
+    <template>
+      <random>
+        <li>It's going well, thanks! How's it going with you?.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IT'S GOING WELL TOO DO YOU WORK HERE IN *</pattern>
+    <template>
+      <random>
+        <li>No, I am here to study English. What do you do here in <star/>?</li>
+        <li>I am an actor and a singer.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM AN ACTOR AND A SINGER</pattern>
+    <template>
+      <random>
+        <li>That sounds like a lot of fun!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>THAT SOUNDS LIKE A LOT OF FUN</pattern>
+    <template>
+      <random>
+        <li>It is sometimes, not always, though.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG HAVE YOU BEEN HERE FOR</pattern>
+    <template>
+      <random>
+        <li>I have been here for two months.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG ARE YOU GOING TO STAY FOR</pattern>
+    <template>
+      <random>
+        <li>I will stay here in * for another four months.</li>
+      </random>
+    </template>
+  </category>
+
+</aiml>

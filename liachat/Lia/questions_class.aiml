@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+    <pattern>YA SABES COMO HACER PREGUNTAS EN INGLES NO *</pattern>
+    <template>
+      <random>
+        <li>Para hacer preguntas simples normalmente debes conocer "Wh questions", ¿las conoces?</li>
+        <li>"What" en una pregunta significa "qué" o "cuál". Ejemplo: What did you tell her? (¿Qué le dijiste a ella?)</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WH QUESTIONS *</pattern>
+    <template>
+      <random>
+        <li>"What" en una pregunta significa "Qué" o "Cuál". What are you up to today? (¿Qué harás hoy?)</li>
+        <li>"Who" cuando quieres descubrir quién hizo algo. Who did you see there? (¿Quién viste allí?)</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YA SABES COMO SALUDAR EN INGLES NO*</pattern>
+    <template>
+      <random>
+        <li><star/>Para saludar en inglés debes.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SABES COMO SE ESCRIBE PADRE EN INGLES NO*</pattern>
+    <template>
+      <random>
+        <li><star/>Para hacer pADRE debes.</li>
+      </random>
+    </template>
+  </category>
+
+
+</aiml>

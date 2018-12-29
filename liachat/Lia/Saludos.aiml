@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+    <pattern>* COMO ESTAS *</pattern>
+    <template>
+      <random>
+        <li>Estoy muy bien, y tú?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOLA *</pattern>
+    <template>
+      <random>
+        <li>¡Hola! Soy Lia, ¿Quieres aprender inglés conmigo?</li>
+        <li>¿Prácticamos inglés juntos?</li>
+        <li>Un día nuevo y más palabras por aprender.</li>
+      </random>
+    </template>
+  </category>
+
+</aiml>

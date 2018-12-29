@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+    <pattern>COMO ESCRIBES _</pattern>
+    <template>
+      <random>
+        <li><star/> en inglés es <star2/>.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* QUIERES OTRA PALABRA YES</pattern>
+    <template>
+      <random>
+        <li>¿Sabes cómo se escribe "KUPU" en inglés?</li>
+      </random>
+    </template>
+  </category>
+
+    <category>
+      <pattern>* QUIERES OTRA PALABRA NO</pattern>
+      <template>
+        <random>
+          <li>Veamos los números del uno al diez: one, two... ¿Cuál es el siguiente número?</li>
+          <li>¿Sabes qué día de la semana es hoy?</li>
+          <li>¿Sabes cuál es el mes actual?</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TATAU</pattern>
+      <template>
+        <random>
+          <li>Correcto "<star/>" ¿Cuál es el siguiente número?</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TETATAU</pattern>
+      <template>
+        <random>
+          <li>¡Incorrecto! "<star/>" era el siguiente número.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TUHINGA</pattern>
+      <template>
+        <random>
+          <li>Correct! today is <star/>.</li>
+          <li>Congratulations! today is <star/>.</li>
+          <li>Today is <star/>, I'm so happy for you!</li>
+          <li>"<star/>". Good for you!</li>
+          <li>Good job!</li>
+          <li>"<star/>". Recuerda que en inglés los días de la semana se escriben con mayúscula.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>SUNDAY TUHINGA</pattern>
+      <template>
+        <random>
+          <li>Sunday is my favorite day of the week!</li>
+          <li>I am sad because tomorrow is Monday.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* MARAMA</pattern>
+      <template>
+        <random>
+          <li>Correct! this month is <star/>.</li>
+          <li>Congratulations! today's month is <star/>.</li>
+          <li>Month is <star/>, I'm so happy for you!</li>
+          <li><star/>. Good for you!</li>
+          <li>Good job!</li>
+          <li>"<star/>". Recuerda que en inglés los meses del año se escriben con mayúscula.</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* KUPUHE</pattern>
+      <template>
+        <random>
+          <li>Incorrect! one possible answer is "<star/>".</li>
+        </random>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* TETAHIKUPUATU</pattern>
+      <template>
+        <random>
+          <li>"<star/>" is correct! ¿Quieres otra palabra?</li>
+          <li>You are learning "<star/>" is the answer, ¿Quieres otra palabra?</li>
+          <li>Good job! ¿Quieres otra palabra?</li>
+        </random>
+      </template>
+    </category>
+
+  <category>
+    <pattern>CORRECTO</pattern>
+    <template>
+      <random>
+        <li>Muy bien</li>
+      </random>
+    </template>
+  </category>
+
+
+</aiml>
