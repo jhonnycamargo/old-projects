@@ -1,0 +1,16 @@
+<div hflex="1" vflex="1" sclass="banner">
+	<hbox hflex="1" vflex="1" align="center">
+		<div id="textLogoDiv" width="400px">
+			<label value="CGanador" sclass="banner-head" />
+		</div>
+		<hbox hflex="1" vflex="1" pack="end" align="end"
+			apply="co.merkhet.business.authentication.control.LogoutViewController">
+			<toolbar sclass="vista">
+				<toolbarbutton id="perfilBtn"
+					image="/resources/img/user_ffffff_16.png" label="Perfil" />
+				<toolbarbutton id="logoutBtn"
+					image="/resources/img/mail-forward_ffffff_16.png" label="Salir" />
+			</toolbar>
+		</hbox>
+	</hbox>
+</div>

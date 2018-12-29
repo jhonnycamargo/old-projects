@@ -1,0 +1,120 @@
+.banner {
+	background-color: #63c6ae;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.banner-head {
+	font-size: 24px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.banner .logout {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #242a2c;
+	color: #454e51;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+.footer a, .footer a:VISITED {
+	color: white;
+}
+
+.sidebar {
+	line-height: 18px;
+	font-size: 16px;
+}
+
+.sidebar .z-listitem {
+	line-height: 24px;
+}
+
+.sidebar .z-listitem:hover>.z-listcell {
+	background-color: #002B37;
+	border-bottom: 1px solid #63c6ae;
+}
+
+.sidebar .z-listcell-content {
+	font-family: Arial, Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #63c6ae;
+	padding: 4px 5px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.sidebar .z-listitem.z-listitem-selected>.z-listcell>.z-listcell-content
+	{
+	color: #fff;
+	background: #63c6ae;
+}
+
+.sidebar .z-listheader-content {
+	color: #fff;
+	background-color: #63c6ae;
+}
+
+.head1 {
+	font-size: large;
+}
+
+.head2 {
+	font-size: medium;
+}
+
+.row-title .z-label {
+	font-weight: bold;
+	color: #636363;
+}
+
+.fn-caption .z-caption-l {
+	font-weight: bold;
+	font-size: medium;
+	color: #636363;
+}
+
+.complete-todo .z-label {
+	text-decoration: line-through;
+}
+
+.warn {
+	color: red;
+}
+
+.demo-main a, .demo-main a:VISITED {
+	color: #636363;
+	text-decoration: underline;
+	font-size: smaller;
+}
+
+.todo-box {
+	padding-right: 4px;
+}
+
+.z-toolbar a, .z-toolbar a:visited, .z-toolbar a:hover {
+	background-color: transparent;
+	border: 0 none;
+}
+
+.z-toolbarbutton-content {
+	color: #fff;
+}
+
+.vista {
+	background: #63c6ae;
+	color: white;
+	padding-top: 7px;
+}
+
+.p-vista .z-panel-children {
+	background-color: #008BB6;
+	border-bottom: 0 none;
+}

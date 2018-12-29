@@ -1,0 +1,8 @@
+<vlayout apply="co.merkhet.web.control.SidebarAjaxbasedController">
+	<listbox id="mnuLst" sclass="sidebar" zclass="none" width="320px"
+		height="300px">
+		<listhead>
+			<listheader label="Bienvenido" sclass="sidebar" />
+		</listhead>
+	</listbox>
+</vlayout>

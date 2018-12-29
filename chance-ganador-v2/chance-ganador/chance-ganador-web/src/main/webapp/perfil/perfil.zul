@@ -1,0 +1,53 @@
+<?page title="Resultados Loterias" contentType="text/html;charset=UTF-8"?>
+<?init class="co.merkhet.web.util.AuthenticationInit"?>
+<?variable-resolver class="org.zkoss.zkplus.cdi.DelegatingVariableResolver"?>
+<zk>
+	<tabbox id="perfilTbx" height="100%">
+		<tabs id="passwordTbs">
+			<tab id="passwordTab" label="Cambiar contraseña" />
+		</tabs>
+		<tabpanels>
+			<tabpanel>
+				<div apply="org.zkoss.bind.BindComposer"
+					viewModel="@id('vm') @init('co.merkhet.cganador.business.perfil.control.PerfilViewViewModel')">
+					<grid zclass="none" width="65%">
+						<columns>
+							<column />
+							<column />
+						</columns>
+						<rows zclass="none">
+							<row zclass="none">
+								<label value="Nueva contraseña:" />
+								<textbox id="newPasswordTxt"
+									type="password" value="@bind(vm.newPassword)" />
+							</row>
+							<row zclass="none">
+								<label value="Confirmar contraseña:" />
+								<textbox id="confirmNewPasswordTxt"
+									type="password" value="@bind(vm.confirmNewPassword)" />
+							</row>
+							<row zclass="none">
+								<separator height="30px" />
+							</row>
+							<row zclass="none">
+								<cell colspan="2"
+									style="text-align:center">
+									<vlayout>
+										<button label="Aceptar"
+											onClick="@command('cambiarPassword')" />
+									</vlayout>
+								</cell>
+							</row>
+							<row>
+								<cell style="text-align:center">
+									<label style="color:red"
+										value="@bind(vm.errorMessages)" />
+								</cell>
+							</row>
+						</rows>
+					</grid>
+				</div>
+			</tabpanel>
+		</tabpanels>
+	</tabbox>
+</zk>

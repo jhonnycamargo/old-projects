@@ -1,0 +1,79 @@
+<?page title="Resultados Loterias" contentType="text/html;charset=UTF-8"?>
+<?init class="co.merkhet.web.util.AuthenticationInit"?>
+<?variable-resolver class="org.zkoss.zkplus.cdi.DelegatingVariableResolver"?>
+<zk>
+	<tabbox id="resultsTbx" height="100%">
+		<tabs id="sorteosTbs">
+			<tab id="sorteosTab" label="Sorteos" />
+		</tabs>
+		<tabpanels>
+			<tabpanel>
+				<div apply="org.zkoss.bind.BindComposer"
+					viewModel="@id('vm') @init('co.merkhet.cganador.business.sorteos.control.SorteosViewViewModel')">
+					<grid zclass="none" width="65%">
+						<columns>
+							<column />
+							<column />
+						</columns>
+						<rows zclass="none">
+							<row zclass="none">
+								<label value="Lotería:" />
+								<combobox id="loteriasCmb" width="150px"
+									model="@load(vm.loterias)" selectedItem="@bind(vm.loteria)">
+									<template name="model">
+										<comboitem
+											label="@load(each.nombre)" />
+									</template>
+								</combobox>
+							</row>
+							<row zclass="none">
+								<label value="Fecha Inicial:" />
+								<datebox id="fechaIniDbx" format="short"
+									width="150px" value="@bind(vm.fechaIni)" />
+							</row>
+							<row zclass="none">
+								<label value="Fecha Fin:" />
+								<datebox id="fechaFinDbx" width="150px"
+									format="short" value="@bind(vm.fechaFin)" />
+							</row>
+							<row zclass="none">
+								<separator height="30px" />
+							</row>
+							<row zclass="none">
+								<cell colspan="2"
+									style="text-align:center">
+									<vlayout>
+										<button label="Buscar"
+											onClick="@command('buscarSorteos')" />
+									</vlayout>
+								</cell>
+							</row>
+						</rows>
+					</grid>
+
+					<separator />
+
+					<listbox model="@bind(vm.sorteos)" height="200px">
+						<listhead>
+							<listheader label="Lotería" />
+							<listheader label="Resultado" />
+							<listheader label="Fecha" />
+						</listhead>
+						<template name="model" var="sorteo">
+							<listitem>
+								<listcell
+									label="@bind(sorteo.loteria.nombre)" />
+								<listcell
+									label="@bind(sorteo.resultado)" />
+								<listcell label="@bind(sorteo.fecha)" />
+							</listitem>
+						</template>
+					</listbox>
+					<paging id="sorteosPaging"
+						pageSize="@load(vm.pageSize)" totalSize="@load(vm.totalSize)"
+						activePage="@save(vm.activePage)" />
+				</div>
+			</tabpanel>
+		</tabpanels>
+	</tabbox>
+</zk>

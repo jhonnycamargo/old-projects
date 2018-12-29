@@ -1,0 +1,58 @@
+<?link rel="stylesheet" type="text/css" href="/resources/css/login.css"?>
+<zk>
+	<window
+		apply="co.merkhet.business.authentication.control.LoginViewController"
+		height="100%">
+		<borderlayout height="100%">
+			<north maxsize="300" size="10%" border="0">
+				<div hflex="1" vflex="1" sclass="banner">
+					<hbox hflex="1" vflex="1" align="center"
+						height="100%">
+						<hbox hflex="1" vflex="1" pack="end"
+							align="end">
+							<toolbar sclass="vista">
+								<toolbarbutton id="signInBtn"
+									image="/resources/img/sign-in_63c6ae_16.png"
+									label="Registrarme" />
+								<toolbarbutton id="recoverPwdBtn"
+									image="/resources/img/key_63c6ae_16.png"
+									label="Olvide mi contraseña" />
+							</toolbar>
+						</hbox>
+					</hbox>
+				</div>
+			</north>
+			<center border="0">
+				<div sclass="wrapper">
+					<div sclass="container">
+						<label value="CGanador" zclass="none"
+							style="font-size: 40px;" />
+						<separator height="30px" />
+						<grid id="formGrd" sclass="form"
+							zclass="none">
+							<rows zclass="none" sclass="form">
+								<row zclass="none" sclass="form">
+									<textbox id="usernameTxt"
+										placeholder="Correo electrónico" sclass="logininput" />
+								</row>
+								<row zclass="none" sclass="form">
+									<textbox id="passwordTxt"
+										placeholder="Contraseña" sclass="logininput" type="password" />
+								</row>
+								<row zclass="none" sclass="form">
+									<button id="loginBtn" label="Entrar"
+										sclass="loginbutton" zclass="none">
+									</button>
+								</row>
+								<row zclass="none" sclass="form">
+									<label id="messageLbl" />
+								</row>
+							</rows>
+						</grid>
+					</div>
+				</div>
+			</center>
+			<south maxsize="300" size="10%" border="0"></south>
+		</borderlayout>
+	</window>
+</zk>

@@ -1,0 +1,82 @@
+<?page title="Resultados Loterias" contentType="text/html;charset=UTF-8"?>
+<?init class="co.merkhet.web.util.AuthenticationInit"?>
+<?variable-resolver class="org.zkoss.zkplus.cdi.DelegatingVariableResolver"?>
+<zk>
+	<tabbox id="resultsTbx" height="100%">
+		<tabs id="sorteosTbs">
+			<tab id="letsPlayTab" label="Vamos a Jugar" />
+		</tabs>
+		<tabpanels>
+			<tabpanel>
+				<div apply="org.zkoss.bind.BindComposer"
+					viewModel="@id('vm') @init('co.merkhet.cganador.business.letsplay.control.LetsPlayViewViewModel')">
+					<grid zclass="none" width="65%">
+						<columns>
+							<column />
+							<column />
+						</columns>
+						<rows zclass="none">
+							<row zclass="none">
+								<label value="Loteria:" />
+								<combobox id="loteriasCmb" width="150px"
+									model="@load(vm.loterias)" selectedItem="@bind(vm.loteria)">
+									<template name="model">
+										<comboitem
+											label="@load(each.nombre)" />
+									</template>
+								</combobox>
+							</row>
+							<row zclass="none">
+								<separator height="30px" />
+							</row>
+							<row zclass="none">
+								<cell colspan="2"
+									style="text-align:center">
+									<vlayout>
+										<button label="A Jugar"
+											onClick="@command('jugar')" />
+									</vlayout>
+								</cell>
+							</row>
+						</rows>
+					</grid>
+
+					<separator />
+
+					<grid width="500px">
+						<rows>
+							<row>
+								<label value="Loteria:" />
+								<label
+									value="@bind(vm.play.loteria.nombre)" />
+							</row>
+							<row>
+								<label value="Fecha:" />
+								<datebox value="@bind(vm.play.fecha)"
+									format="dd/MM/yyyy" readonly="true" disabled="true"
+									buttonVisible="false" />
+							</row>
+							<row>
+								<label value="Super Pleno:" />
+								<label
+									value="@bind(vm.play.superPleno)" />
+							</row>
+							<row>
+								<label value="Pleno:" />
+								<label value="@bind(vm.play.pleno)" />
+							</row>
+							<row>
+								<label value="Pata:" />
+								<label value="@bind(vm.play.pata)" />
+							</row>
+							<row>
+								<label value="Uña:" />
+								<label value="@bind(vm.play.unia)" />
+							</row>
+						</rows>
+					</grid>
+				</div>
+			</tabpanel>
+		</tabpanels>
+	</tabbox>
+</zk>

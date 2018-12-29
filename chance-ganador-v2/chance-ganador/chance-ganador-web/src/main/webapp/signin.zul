@@ -1,0 +1,78 @@
+<?link rel="stylesheet" type="text/css" href="/resources/css/login.css"?>
+<zk>
+	<window
+		apply="co.merkhet.business.authentication.control.SigninViewController"
+		height="100%">
+		<borderlayout height="100%">
+			<north maxsize="300" size="10%" border="0">
+				<div hflex="1" vflex="1" sclass="banner">
+					<hbox hflex="1" vflex="1" align="center"
+						height="100%">
+						<hbox hflex="1" vflex="1" pack="end"
+							align="end">
+							<toolbar sclass="vista">
+								<toolbarbutton id="toLoginBtn"
+									image="/resources/img/sign-in_63c6ae_16.png" label="Ingresar" />
+								<toolbarbutton id="recoverPwdBtn"
+									image="/resources/img/key_63c6ae_16.png"
+									label="Olvide mi contraseña" />
+							</toolbar>
+						</hbox>
+					</hbox>
+				</div>
+			</north>
+			<center border="0">
+				<div sclass="wrapper">
+					<div sclass="container">
+						<label value="Registro CGanador" zclass="none"
+							style="font-size: 40px;" />
+						<separator height="30px" />
+						<grid id="formGrd" sclass="form"
+							zclass="none">
+							<rows zclass="none" sclass="form">
+								<row zclass="none" sclass="form">
+									<textbox id="usernameTxt"
+										placeholder="Correo electrónico" sclass="logininput"
+										constraint="/.+@.+\.[a-z]+/: Correo electrónico" />
+								</row>
+								<row zclass="none" sclass="form">
+									<textbox id="passwordTxt"
+										placeholder="Contraseña" sclass="logininput" type="password"
+										constraint="no empty" />
+								</row>
+								<row zclass="none" sclass="form">
+									<textbox id="confirmPasswordTxt"
+										placeholder="Confirmar Contraseña" sclass="logininput"
+										type="password" constraint="no empty" />
+								</row>
+								<row zclass="none" sclass="form">
+									<button id="registrarBtn"
+										label="Registrarme" sclass="loginbutton" zclass="none">
+									</button>
+								</row>
+								<row zclass="none" sclass="form">
+									<label id="messageLbl" />
+								</row>
+							</rows>
+						</grid>
+					</div>
+				</div>
+			</center>
+			<south maxsize="300" size="15%" border="0">
+				<div hflex="0" vflex="0" sclass="banner">
+					<hbox hflex="1" vflex="1" align="center"
+						height="100%">
+						<vbox hflex="1" vflex="1" pack="center"
+							align="center">
+							<label value="Términos y Condiciones" />
+							<textbox rows="10" width="800px"
+								readonly="true" height="150px"
+								value="El registro como miembro de CGanador, significa para usted el aceptar los términos de uso a continuación. Si usted no esta de acuerdo, por favor no proceda con su registro, o con el uso de CGanador. Si usted continúa es indicador de la aceptación de estos términos. Usted no compartirá el acceso a CGanador. Todos los derechos están reservados. CGanador no garantiza acceso ininterrumpido ni libre de errores, no existe ninguna responsabilidad entre usted y CGanador, es usted adulto y responsable por el uso que usted le de a CGanador. El registro en CGanador significa que usted entiende y acepta los términos y condiciones.">
+							</textbox>
+						</vbox>
+					</hbox>
+				</div>
+			</south>
+		</borderlayout>
+	</window>
+</zk>

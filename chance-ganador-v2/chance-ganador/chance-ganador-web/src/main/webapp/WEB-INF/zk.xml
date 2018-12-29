@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk>
+	<!-- [Optional] Uncomment if you want to defines the application's name 
+		<preference> <name>org.zkoss.zk.ui.WebApp.name</name> <value>chance-ganador-web</value> 
+		</preference> -->
+	<library-property>
+		<name>org.zkoss.zkplus.cdi.beanManager.jndiName</name>
+		<value>java:comp/BeanManager</value>
+	</library-property>
+	<session-config>
+		<session-timeout>1800</session-timeout>
+		<device-type>ajax</device-type>
+		<timeout-uri>/login.zul</timeout-uri>
+	</session-config>
+</zk>

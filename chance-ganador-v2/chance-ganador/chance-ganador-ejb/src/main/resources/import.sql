@@ -1,0 +1,125 @@
+--
+-- JBoss, Home of Professional Open Source
+-- Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
+-- contributors by the @authors tag. See the copyright.txt in the
+-- distribution for a full listing of individual contributors.
+--
+-- Licensed under the Apache License, Version 2.0 (the "License");
+-- you may not use this file except in compliance with the License.
+-- You may obtain a copy of the License at
+-- http://www.apache.org/licenses/LICENSE-2.0
+-- Unless required by applicable law or agreed to in writing, software
+-- distributed under the License is distributed on an "AS IS" BASIS,
+-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+-- See the License for the specific language governing permissions and
+-- limitations under the License.
+--
+
+-- You can use this file to load seed data into the database using SQL statements
+
+
+-- insert into Pais(PAIS_ID, NOMBRE, CODIGO) values(0, 'Colombia', 'CO');
+
+-- insert into Loteria(LOTERIA_ID, NOMBRE, PAIS_ID) values(0, 'Dorado Mañana', 0);
+
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(0, 2204, to_date('11-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5109', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(1, 2203, to_date('10-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4554', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(2, 2202, to_date('09-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2737', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(3, 2201, to_date('08-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1863', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(4, 2200, to_date('07-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2802', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(5, 2199, to_date('06-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3241', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(6, 2198, to_date('04-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3303', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(7, 2197, to_date('03-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7517', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(8, 2196, to_date('02-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0361', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(9, 2195, to_date('01-07-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9139', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(10, 2194, to_date('30-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9146', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(11, 2193, to_date('27-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3743', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(12, 2192, to_date('26-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '6188', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(13, 2191, to_date('25-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1370', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(14, 2190, to_date('24-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7611', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(15, 2189, to_date('23-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4341', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(16, 2188, to_date('22-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1460', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(17, 2187, to_date('20-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5938', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(18, 2186, to_date('19-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5285', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(19, 2185, to_date('18-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1521', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(20, 2184, to_date('17-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1108', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(21, 2183, to_date('16-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2559', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(22, 2182, to_date('13-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1604', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(23, 2181, to_date('12-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0662', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(24, 2180, to_date('11-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9418', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(25, 2179, to_date('10-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2480', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(26, 2178, to_date('09-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3515', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(27, 2177, to_date('06-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7060', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(28, 2176, to_date('05-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8859', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(29, 2175, to_date('04-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2922', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(30, 2174, to_date('03-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4751', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(31, 2173, to_date('02-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5054', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(32, 2172, to_date('01-06-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0506', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(33, 2171, to_date('30-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '6200', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(34, 2170, to_date('29-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5995', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(35, 2169, to_date('28-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5278', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(36, 2168, to_date('27-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7751', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(37, 2167, to_date('26-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3123', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(38, 2166, to_date('25-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3251', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(39, 2165, to_date('23-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4042', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(40, 2164, to_date('22-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9691', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(41, 2163, to_date('21-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4386', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(42, 2162, to_date('20-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7941', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(43, 2161, to_date('19-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0684', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(44, 2160, to_date('16-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7697', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(45, 2159, to_date('15-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4415', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(46, 2158, to_date('14-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4606', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(47, 2157, to_date('13-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2522', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(48, 2156, to_date('12-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3186', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(49, 2155, to_date('11-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2787', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(50, 2154, to_date('09-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2374', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(51, 2153, to_date('08-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '6831', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(52, 2152, to_date('07-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2124', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(53, 2151, to_date('06-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7935', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(54, 2149, to_date('04-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9189', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(55, 2148, to_date('02-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7631', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(56, 2147, to_date('01-05-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1402', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(57, 2146, to_date('30-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '6501', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(58, 2145, to_date('29-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8082', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(59, 2144, to_date('28-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0130', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(60, 2143, to_date('27-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0338', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(61, 2142, to_date('25-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4268', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(62, 2141, to_date('24-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3796', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(63, 2140, to_date('23-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4472', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(64, 2139, to_date('22-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4837', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(65, 2138, to_date('21-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8310', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(66, 2137, to_date('20-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0676', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(67, 2136, to_date('18-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9566', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(68, 2135, to_date('17-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1568', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(69, 2134, to_date('16-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7701', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(70, 2133, to_date('15-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1116', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(71, 2132, to_date('14-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0824', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(72, 2131, to_date('13-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4678', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(73, 2130, to_date('11-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4214', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(74, 2129, to_date('10-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7478', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(75, 2128, to_date('09-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3783', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(76, 2127, to_date('08-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8874', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(77, 2126, to_date('07-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8967', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(78, 2125, to_date('06-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5517', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(79, 2124, to_date('04-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2411', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(80, 2123, to_date('01-04-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0439', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(81, 2122, to_date('31-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7528', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(82, 2121, to_date('30-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7494', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(83, 2120, to_date('28-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9554', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(84, 2119, to_date('27-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0880', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(85, 2118, to_date('26-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1512', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(86, 2117, to_date('25-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2450', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(87, 2116, to_date('24-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2641', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(88, 2115, to_date('21-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7629', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(89, 2114, to_date('20-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '4030', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(90, 2113, to_date('19-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '2499', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(91, 2112, to_date('18-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7281', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(92, 2111, to_date('17-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3682', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(93, 2110, to_date('16-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '5825', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(94, 2109, to_date('14-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1379', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(95, 2108, to_date('13-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '3490', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(96, 2107, to_date('12-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '7735', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(97, 2106, to_date('11-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '1541', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(98, 2105, to_date('10-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '8848', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(99, 2104, to_date('09-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '9709', 0);
+-- insert into Sorteo(SORTEO_ID, NUMERO, FECHA, RESULTADO, LOTERIA_ID) values(100, 2103, to_date('07-03-2015 00:00:00.00', 'DD-MM-YYYY HH24:MI:SS.MS'), '0513', 0);
