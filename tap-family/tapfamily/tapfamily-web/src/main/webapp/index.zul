@@ -1,0 +1,37 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/resources/css/login.css"?>
+<zk>
+	<window
+		apply="co.swat.tapfamily.business.authentication.control.LoginViewController"
+		height="100%" visible="true">
+		<borderlayout height="100%">
+			<north maxsize="300" size="10%" border="0"></north>
+			<center border="0">
+				<div sclass="wrapper">
+					<div sclass="container">
+						<grid id="formGrd" sclass="form"
+							zclass="none">
+							<rows zclass="none" sclass="form">
+								<row zclass="none" sclass="form">
+									<textbox id="usernameTxt"
+										placeholder="Usuario" sclass="logininput" />
+								</row>
+								<row zclass="none" sclass="form">
+									<textbox id="passwordTxt"
+										placeholder="Password" sclass="logininput" type="password" />
+								</row>
+								<row zclass="none" sclass="form">
+									<button id="loginBtn" label="Login"
+										sclass="loginbutton" zclass="none">
+									</button>
+								</row>
+							</rows>
+						</grid>
+					</div>
+				</div>
+			</center>
+			<south maxsize="300" size="10%" border="0"></south>
+		</borderlayout>
+	</window>
+	<include src="/dashboard/dashboard.zul" visible="false" />
+</zk>
